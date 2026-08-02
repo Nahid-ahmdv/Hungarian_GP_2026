@@ -1,0 +1,15 @@
+# Supported Python version: 3.11 (developed and tested on Python 3.11.15).
+#
+# Analytical runtime versions used to produce the results in
+# notebooks/01_hungarian_gp_2026_story_discovery.ipynb. Do not change these
+# without a demonstrated compatibility reason.
+fastf1==3.8.3
+pandas==2.3.3
+numpy==2.4.4
+matplotlib==3.10.9
+ipython==9.13.0
+ipykernel==7.2.0
+
+# Tooling needed to edit and execute the notebook (not analytical dependencies).
+nbformat>=5.10,<6
+nbconvert>=7.16,<8
